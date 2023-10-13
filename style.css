@@ -1,0 +1,63 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title_primary {
+  text-align: center;
+}
+
+.card {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.card__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  display: block;
+}
+
+.text_italic {
+  font-style: italic;
+}
+
+.text_right {
+  text-align: end;
+}
+
+.link {
+  color: blue;
+}
+
+.link:hover,
+.link:focus {
+  color: teal;
+}
+
+.link:active {
+  color: purple;
+}
+
+.list__item {
+  display: list-item;
+}
+
+.nav_shifted {
+  margin-left: 32px;
+}
+
+.nav__list {
+  padding: 0;
+  list-style: none;
+}
+
+.nav__item {
+  margin-bottom: 4px;
+}
+
+.nav__link {
+  font-weight: bold;
+}

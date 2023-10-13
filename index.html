@@ -3,33 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <h1 class="title title_primary">Odin Recipes</h1>
 
-    <img
-      src="./img/index.png"
-      alt="Image of viking eating a cookie with a fork"
-    />
+    <div class="card">
+      <img
+        src="./img/index.png"
+        alt="Image of viking eating a cookie with a fork"
+        class="image card__image"
+      />
 
-    <br />
+      <small class="text text_italic card__caption">
+        I'm not the image's author!
+        <a
+          href="https://drawception.com/panel/drawing/UNyV6336/viking-eating-a-cookie-with-a-fork/"
+          class="link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visit the image's source page.
+        </a>
+      </small>
+    </div>
 
-    <small>
-      I'm not the image's author!
-      <a
-        href="https://drawception.com/panel/drawing/UNyV6336/viking-eating-a-cookie-with-a-fork/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Visit the image's source page.
-      </a>
-    </small>
+    <nav class="nav nav_shifted">
+      <h2 class="title title_secondary">Menu</h2>
 
-    <ul>
-      <li><a href="./recipes/almond-bars.html">Almond Bars</a></li>
-      <li><a href="./recipes/almond-bear-claws.html">Almond Bear Claws</a></li>
-      <li><a href="./recipes/almond-bread.html">Almond Bread</a></li>
-    </ul>
+      <ul class="list nav__list">
+        <li class="nav__item">
+          <a href="./recipes/almond-bars.html" class="link nav__link">
+            Almond Bars
+          </a>
+        </li>
+
+        <li class="list__item nav__item">
+          <a href="./recipes/almond-bear-claws.html" class="link nav__link">
+            Almond Bear Claws
+          </a>
+        </li>
+
+        <li class="list__item nav__item">
+          <a href="./recipes/almond-bread.html" class="link nav__link">
+            Almond Bread
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
